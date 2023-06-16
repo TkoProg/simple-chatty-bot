@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: The function &#x27;greet()&#x27; uses a template literal to concatenate a
+    string
+- text: '&#x27;const user&#x27; is used to declare a constant variable named &#x27;user&#x27;'
+- text: "The &#x27;greet()&#x27; function returns &#x27;Hello, John Doe!&#x27; when\
+    \ called with &#x27;John Doe&#x27; as the argument"
+- text: JavaScript is not used to output any messages to the browser console in this
+    code
+files:
+- name: main.js
+  visible: true
+  text: |+
+    // You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/29807#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 14 Jun 2023 21:15:34 UTC"
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+local_check: false
